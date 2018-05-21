@@ -1,0 +1,13 @@
+print_N <- function(N) {
+# seq() creates a list of numbers
+n_seq <- seq(N)
+for (num in n_seq) {
+print(num)
+    }
+}
+
+
+
+
+
+
