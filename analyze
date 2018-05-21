@@ -1,0 +1,12 @@
+function(file){
+dat <- read.csv(file, header = FALSE) 
+#calculate the avg, max and min over time
+avg <- apply(dat, 2, mean)
+max <- apply(dat, 2, max)
+min <- apply(dat, 2, min)
+#plot the graph
+plot_avg <- plot(avg)
+plot_max <- plot(max)
+plot_min <- plot(min)
+}
+
